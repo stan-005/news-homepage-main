@@ -1,0 +1,166 @@
+/* Reset and typography */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #9698a6;
+  background-color: #fefdf9;
+  font-size: 15px;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hero section */
+.hero {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.hero-image-container {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #333;
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-description p {
+  margin: 0;
+}
+
+.read-more {
+  background-color: #f15e50;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.new-articles {
+  background-color: #00001a;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.new-articles h2 {
+  color: #e9aa52;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.new-articles article {
+  border-bottom: 1px solid #5d5f79;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.new-articles article:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* Featured articles */
+.featured-articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.featured-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.featured-content img {
+  max-width: 100px;
+  height: auto;
+}
+
+.article-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.article-number {
+  font-size: 30px;
+  font-weight: 700;
+  color: #
+/* attribution styling */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
